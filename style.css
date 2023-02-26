@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     flex: 1;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     padding-left: 120px;
 }
@@ -35,11 +35,31 @@ body {
 }
 
 .header-lower {
+    display: flex;
     color: white;
+    margin: 80px;
+    justify-content: center;
 }
 
 button {
     background-color: blue;
     color: white;
     border: none;
+}
+
+.header-image {
+    width: 300px;
+    height: auto;
+}
+
+.header-lower h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-lower p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
 }
