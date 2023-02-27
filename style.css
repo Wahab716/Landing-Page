@@ -57,6 +57,7 @@ button {
     background-color: #3882F6;
     color: white;
     border: none;
+    font-size: 20px;
 }
 
 .header-image {
@@ -76,8 +77,8 @@ button {
     color: #f9faf8;
 }
 
-.header-lower p {
-    font-size: 18px;
+.header-info p {
+    font-size: 24px;
     color: #E5E7EB;
     flex-wrap: wrap;
 }
@@ -97,13 +98,14 @@ button {
 .info-photos {
     display: flex;
     justify-content: space-around;
-    width: 100vh;
+    width: 100vw;
     padding-bottom: 100px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .picture {
-    width: 200px;
+    width: 235px;
     height: auto;
     border: 3px solid rgb(102, 179, 204);
     border-radius: 15%;
@@ -123,4 +125,61 @@ button {
 .quote-creator {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.ad-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    align-items: center;
+    gap: 32px;
+    padding: 50px;
+    width: 75vw;
+    border-radius: 10px;
+}
+
+.ad p {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ad-words {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ad button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
