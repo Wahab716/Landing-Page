@@ -8,18 +8,17 @@ body {
 .header {
     background-color: #1f2937;
     margin: 0;
-    padding-right: 100px;
+    padding-right: 0;
     padding-bottom: 50px;
 }
 
 .header-upper {
     display: flex;
     color: white;
-    padding: 24px;
-    padding-left: 0;
+    padding: 24px 0;
+    margin: 0 100px;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 100px;
 }
 
 .header-logo {
@@ -44,13 +43,18 @@ body {
     text-decoration: none;
 }
 
+.line {
+    height: 5px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
 .header-lower {
     display: flex;
     color: white;
-    margin-left: 100px;
+    margin: 0 100px;
     justify-content: flex-start;
     gap: 82px;
-    padding-right: 24px;
 }
 
 button {
@@ -75,12 +79,25 @@ button {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 0;
+    margin: 0;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: space-around;
 }
 
 .header-info p {
     font-size: 24px;
     color: #E5E7EB;
-    flex-wrap: wrap;
+    margin: 0;
+}
+
+.header-info button {
+    width: 100px;
 }
 
 .information {
@@ -90,18 +107,34 @@ button {
 }
 
 .information h2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    width: 100vw;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 0;
 }
 
 .info-photos {
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    padding-bottom: 100px;
+    padding: 0px 0 100px 0;
     gap: 32px;
     flex-wrap: wrap;
+}
+
+.info-text-photo-grouped {
+    text-align: center;
+    width: 240px;
+    font-size: 24px;
+}
+
+.info-text-photo-grouped p {
+    margin: 0;
 }
 
 .picture {
@@ -120,11 +153,16 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
+.quote {
+    margin-top: 0;
+}
 .quote-creator {
     align-self: flex-end;
     font-weight: bold;
+    margin: 0;
 }
 
 .ad-container {
@@ -182,4 +220,5 @@ button {
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px
 }
